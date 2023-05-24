@@ -1,4 +1,4 @@
-import 'package:course_0/screens/auth.dart';
+import 'package:course_0/screens/signup.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +11,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Authentication(), 
+      home: SignUP(), 
       debugShowCheckedModeBanner: false,
     );
   }
